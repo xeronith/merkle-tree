@@ -2,7 +2,7 @@
 pragma solidity >=0.4.21 <8.10.0;
 
 contract Whitelist {
-    address public admin;
+    address admin;
     bytes32 merkleTreeRoot;
 
     constructor() public {
