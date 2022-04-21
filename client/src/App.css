@@ -1,0 +1,81 @@
+p {
+  line-height: 2em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App code {
+  background-color: #f7f7f7;
+  font: bold 12px 'Courier', 'Courier New', monospace;
+  border-radius: 5px;
+  padding: 5px 7px;
+  border: solid 1px #eee;
+}
+
+.App input {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.App input[type=text] {
+  font: bold 14px 'Courier', 'Courier New', monospace;
+  min-width: 400px;
+  padding: 7px;
+}
+
+.App input[type=button] {
+  padding: 7px 15px;
+}
+
+.App ul {
+  list-style-type: none;
+}
+
+.App ul li {
+  font: bold 14px 'Courier', 'Courier New', monospace;
+  padding: 5px 7px;
+}
+
+.App ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.App ul li.whitelist {
+  color: #080;
+}
+
+.App ul li.whitelist:before {
+  content: '✅ '
+}
+
+.App ul li.blocked {
+  color: #c00;
+}
+
+.App ul li.blocked:before {
+  content: '🚫 '
+}
+
